@@ -24,7 +24,7 @@ FROM flights
 WHERE route_no IN (
 	SELECT route_no 
 	FROM routes 
-	WHERE airplane_code='733'
+	WHERE airplane_code='7M7'
 	)
 
 --- Ejercicio 5: Escribe una consulta que te muestre la información detallada de los tickets que han comprado las personas 
